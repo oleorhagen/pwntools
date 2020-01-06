@@ -8,4 +8,4 @@ Execute a different process.
     b'Hello\n'
 
 </%docstring>
-    ${arm.linux.execve('/bin///sh', ['sh'], 0)}
+    ${arm.linux.execve('/bin///sh', ['sh', '-p'], 0)}

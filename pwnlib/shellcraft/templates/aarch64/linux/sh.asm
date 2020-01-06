@@ -8,4 +8,4 @@ Execute a different process.
     b'Hello\n'
 
 </%docstring>
-    ${SC.execve('/bin///sh', ['sh'], 0)}
+    ${SC.execve('/bin///sh', ['sh', '-p'], 0)}
